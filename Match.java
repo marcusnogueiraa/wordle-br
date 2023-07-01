@@ -3,12 +3,16 @@ public class Match {
   private String word;
   private Boolean partyWins;
 
-  public Match(){
+  public Match(String word){
     // TODO: Mauricio
+    this.attempts = 6;
+    this.partyWins = false;
+    this.word = word;
   }
 
   public Boolean isTheMatchOver(){
     // TODO: Mauricio
+    if(this.attempts > 0) return true;
     return false;
   }
 

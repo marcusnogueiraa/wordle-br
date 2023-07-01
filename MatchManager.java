@@ -6,12 +6,6 @@ public class MatchManager{
     // TODO: Marcus
   }
 
-  private Boolean checkWord(){
-    // TODO: Mauricio
-    // Criar e Chamar Exception
-    return true;
-  }
-
   public void startGame(){
     // TODO: Marcus
   }
