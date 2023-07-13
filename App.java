@@ -38,6 +38,7 @@ class App {
         try{
           result = letexto.play(word);
         } catch(InvalidWordException err){
+          System.out.println("Palpite Invalido!");
           continue;
         }
 
@@ -50,7 +51,7 @@ class App {
         System.out.printf("\nParabens! Voce adivinhou a palavra " + letexto.getMatchWord() 
         + " corretamente!\n");
       } else {
-        System.out.printf("\nQue pena! VocÃª nao conseguiu adivinhar a palavra " 
+        System.out.printf("\nQue pena! Voce nao conseguiu adivinhar a palavra " 
         + letexto.getMatchWord() + " corretamente =(\n");
       }
 

@@ -22,9 +22,9 @@ public class Dictionary {
 
   public String newRandomWord(){
     Random rnd = new Random();
-        long seed = System.currentTimeMillis();
-        rnd.setSeed(seed);
-        return words.get(rnd.nextInt(words.size()));
+    long seed = System.currentTimeMillis();
+    rnd.setSeed(seed);
+    return words.get(rnd.nextInt(words.size()));
   }
 
   public Boolean validateWord(String word) {
